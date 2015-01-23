@@ -1,4 +1,4 @@
-FROM danco/php:5.6-apache
+FROM danco/php
 
 RUN apt-get update && apt-get install -y rsync && rm -r /var/lib/apt/lists/*
 
